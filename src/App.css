@@ -6,12 +6,12 @@
 
 
 @layer base{
-    .App{
+    .Landing-page{
         background: linear-gradient(to bottom, white 0%, white 60%, theme(colors.violet.500) 60%, theme(colors.violet.500) 100%)
     }
 
     @media screen(lg){
-        .App{
+        .Landing-page{
             background: linear-gradient(to right, white 0%, white 60%, theme(colors.violet.500) 60%, theme(colors.violet.500) 100%)
         }
     }
