@@ -1,12 +1,16 @@
 import './App.css';
-import LandingPage from './LandingPage';
-import Login from './Login';
+import LandingPage from './components/LandingPage';
+import Login from './components/Login';
+import Contact from './components/Contact';
+// import Image from './components/Image';
 
 function App() {
   return (
      <>
          {/* <LandingPage/> */}
-         <Login/>
+         {/* <Login/> */}
+         {/* <Image/> */}
+         <Contact/>
      </>
   );
 }
