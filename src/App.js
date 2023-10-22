@@ -1,8 +1,9 @@
 import './App.css';
-import LandingPage from './components/LandingPage';
-import Login from './components/Login';
-import Contact from './components/Contact';
+// import LandingPage from './components/LandingPage';
+// import Login from './components/Login';
+// import Contact from './components/Contact';
 // import Image from './components/Image';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
          {/* <LandingPage/> */}
          {/* <Login/> */}
          {/* <Image/> */}
-         <Contact/>
+         {/* <Contact/> */}
+         <Sidebar/>
      </>
   );
 }
